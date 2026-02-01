@@ -1,38 +1,65 @@
-# KeplerQuest-AI — Augmented Reality Client (keplerquest-ar)
+# keplerquest_ar
 
-This repository contains the **Augmented Reality (AR) client** developed as part of the *KeplerQuest-AI* project.  
-The AR client is implemented in **Unity** and provides immersive visualizations of orbital mechanics that can be adapted to support inquiry-based and interactive learning experiences in STEM education.
+This repository contains the **Augmented Reality (AR) client** developed for the KeplerQuest-AI framework.  
+The client is implemented in **Unity** and provides interactive visualizations to support the learning of **Kepler’s laws of planetary motion** through spatial and exploratory representations.
 
-This repository focuses exclusively on the **technological infrastructure** of the AR component and is designed to be reusable in educational and research contexts beyond the original study.
+The implementation corresponds to the AR component described in the paper presented at the  
+**2026 IEEE Global Engineering Education Conference (EDUCON)** and is released to ensure **reproducibility and reuse** of the visualization technology.
 
 ---
 
 ## Overview
 
-The AR client enables users to visualize and explore concepts related to **Kepler’s laws of planetary motion** through interactive 3D representations. It is intended to be used in conjunction with an external conversational AI system but can also operate independently as a standalone AR visualization tool.
+The AR client provides an immersive environment that enables learners to:
+- Explore orbital motion through interactive 3D models
+- Observe geometric and kinematic relationships underlying Kepler’s laws
+- Support inquiry-driven reasoning when used alongside an external conversational system
 
-This repository is part of the broader *KeplerQuest-AI* ecosystem, which is organized into two main technological components:
-
-- **Augmented Reality Client (this repository)**
-- **LLM-Based Chatbot Backend** (`keplerquest-llm`)
+While originally designed to complement an LLM-based chatbot backend, the AR client can operate independently as a standalone visualization tool.
 
 ---
 
-## Key Features
+## Technology Stack
 
-- Unity-based augmented reality application
-- Interactive 3D visualizations of orbital mechanics
-- Modular design to support adaptation to other scientific topics
-- Compatibility with external AI-driven conversational systems
-- Designed for reproducibility and extension
+- **Engine:** Unity
+- **Platform:** Augmented Reality (mobile devices)
+- **AR Framework:** Unity-compatible AR stack (e.g., AR Foundation / Vuforia, depending on local setup)
+- **Design Approach:** Modular scenes and scripts for reuse and extension
+
+---
+
+## Repository Scope
+
+This repository provides **only the augmented reality visualization infrastructure**.
+It does not include:
+- Conversational logic or AI components
+- Learning activities or instructional scripts
+- Assessment or analytics tools
+
+The AR client is domain-focused on **planetary motion and Kepler’s laws**, but its structure is reusable for other STEM visualization contexts involving spatial or dynamic phenomena.
 
 ---
 
 ## Project Structure
 
-The core Unity project structure follows standard best practices:
+The Unity project follows standard conventions:
 
 ```text
-Assets/           # AR scenes, scripts, 3D models, and resources
+Assets/           # AR scenes, scripts, models, and resources
 Packages/         # Unity Package Manager dependencies
 ProjectSettings/  # Unity project configuration
+```
+---
+
+## License
+
+This project is released under the
+Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0) license.
+
+---
+ 
+## Citation
+
+If you use or adapt this code, please cite the corresponding paper presented at the
+2026 IEEE Global Engineering Education Conference (EDUCON).
+
