@@ -72,8 +72,8 @@ The project was tested with **Vuforia Engine 11.3.4**. Other versions may cause 
 
 For the first execution:
 
-1. In the Unity Project window, navigate to: `Assets/Scenes/KeplerQuest.unity`
-2. Open the scene manually.
+1. In the Unity Project window, navigate to: `Assets/Scenes/`
+2. Open the scene `KeplerQuest.unity` manually.
 3. Press **Play** in the Unity Editor.
 
 ---
@@ -83,7 +83,6 @@ For the first execution:
 The AR visualizations are triggered using image targets:
 
 - The target images are located in: `Assets/Targets/`
-
 - Display these images in front of your device camera (printed or on-screen) while the scene is running.
 - When a target is detected, the corresponding orbital animations and visualizations will appear.
 
