@@ -48,6 +48,7 @@ The Unity project follows standard conventions:
 Assets/           # AR scenes, scripts, models, and resources
 Packages/         # Unity Package Manager dependencies
 ProjectSettings/  # Unity project configuration
+Targets/          # Image targets used to trigger AR visualizations
 ```
 ---
 
